@@ -26,7 +26,7 @@
 #include <chrono>
 
 #include <folly/stats/BucketedTimeSeries.h>
-#include <folly/synchronization/RWSpinLock.h>
+#include <folly/RWSpinLock.h>
 #include <thrift/lib/cpp/util/kerberos/Krb5CCacheStore.h>
 #include <thrift/lib/cpp/util/kerberos/Krb5CredentialsCacheManagerLogger.h>
 #include <thrift/lib/cpp/util/kerberos/Krb5Util.h>
